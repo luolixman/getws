@@ -59,7 +59,7 @@ Ninja 仅供学习参考使用，请于下载后的 24 小时内删除，本人�
 
    ```bash
    git clone https://github.com/luolixman/getws.git /ql/ninja
-   cd /ql/getws/backend
+   cd /ql/ninja/backend
    pnpm install
    pm2 start
    cp sendNotify.js /ql/scripts/sendNotify.js
