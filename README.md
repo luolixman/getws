@@ -58,8 +58,8 @@ Ninja 仅供学习参考使用，请于下载后的 24 小时内删除，本人�
    **进容器内执行以下命令**
 
    ```bash
-   git clone https://github.com/Waikkii/waikiki_ninja.git /ql/ninja
-   cd /ql/ninja/backend
+   git clone https://github.com/luolixman/getws.git /ql/ninja
+   cd /ql/getws/backend
    pnpm install
    pm2 start
    cp sendNotify.js /ql/scripts/sendNotify.js
@@ -68,7 +68,7 @@ Ninja 仅供学习参考使用，请于下载后的 24 小时内删除，本人�
 3. 将以下内容粘贴到 `extra.sh`（重启后自动更新并启动 Ninja）
 
    ```bash
-   cd /ql/ninja/backend
+   cd /ql/getws/backend
    git checkout .
    git pull
    pnpm install
@@ -83,7 +83,7 @@ Ninja 仅供学习参考使用，请于下载后的 24 小时内删除，本人�
 使用此种方法无法跟随青龙一起启动，**无法发送扫码通知**，请知悉。
 
 ```bash
-git clone https://github.com/Waikkii/waikiki_ninja.git
+git clone https://github.com/luolixman/getws.git
 cd ninja/backend
 pnpm install
 # 复制 sendNotify.js 到容器内 scripts 目录，`qinglong` 为容器名
